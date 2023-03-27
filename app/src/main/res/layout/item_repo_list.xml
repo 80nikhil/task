@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp_4"
+    app:cardCornerRadius="@dimen/dp_10">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/dp_14"
+            android:layout_toStartOf="@+id/img_share">
+
+            <TextView
+                android:id="@+id/repo_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Repo name"
+                android:layout_margin="@dimen/dp_2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_17"/>
+
+            <TextView
+                android:id="@+id/repo_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Repo name"
+                android:layout_margin="@dimen/dp_2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_17"/>
+
+            <TextView
+                android:id="@+id/repo_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Repo name"
+                android:layout_margin="@dimen/dp_2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_17"/>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/img_share"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/dp_7"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_baseline_share_24"/>
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
